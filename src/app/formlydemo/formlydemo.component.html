@@ -1,0 +1,10 @@
+<p>
+  formly demo Form
+</p>
+<form [formGroup]="orderForm" (ngSubmit)="onSubmit(order)">
+  <formly-form  [fields]="orderFields">
+    <button mat-raised-button color="primary" type="submit">
+      Submit
+    </button>
+  </formly-form>
+</form>
